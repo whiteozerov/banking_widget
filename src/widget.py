@@ -1,7 +1,7 @@
 # src/widget.py
 from typing import Any, Dict, List
 
-from src.processing.functions import filter_by_state, sort_by_date
+from functions import filter_by_state, sort_by_date
 
 
 def get_ready_operations(operations: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
